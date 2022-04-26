@@ -3,12 +3,12 @@
   src: url(BerkshireSwash-Regular.ttf);
 } */
 
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap"); */
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
 }
 h1 {
   font-size: 4rem;
