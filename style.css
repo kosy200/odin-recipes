@@ -1,5 +1,7 @@
-@import url(//fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap);
-
+@font-face {
+  font-family: "Berkshire Swash", cursive;
+  src: url(BerkshireSwash-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
