@@ -33,7 +33,7 @@ header {
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 5vh;
   color: white;
 }
 
@@ -75,6 +75,8 @@ ul {
 }
 
 .card-items {
+  justify-content: space-evenly;
+  align-items: center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -91,8 +93,12 @@ li {
   height: 90%;
 }
 a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3vh;
   color: white;
 }
 a:hover {
